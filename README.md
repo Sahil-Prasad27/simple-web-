@@ -1,2 +1,2 @@
 This is made for learning only
-hopw you learned something whith this
+hop you learned something whith this.
