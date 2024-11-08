@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:monospace;
+
+}
+html,body{
+    height:100%;
+    width: 100%;
+}
+main{
+    
+    width: 100%;
+    background-color: #d5ff40;
+}
+nav{
+    /* background-color: blue; */
+    width: 100%;
+    padding: 60px 130px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    
+}
+nav h2{
+    font-size: 48px;
+    font-weight: 1900;
+}
+nav a{
+    font-size: 39px;
+    color: #000;
+    text-decoration: none;
+
+}
+section{
+    
+    padding:60px 100px;
+}
+section .hero-text1{
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+.hero-text1 h1{
+    font-size:340px;
+    text-transform: uppercase;
+    line-height:300px;
+    font-weight:900;  
+}
+
+.hero-text1 .video{
+    height:180px;
+    width: 700px;
+    background-color: black;
+    border-radius: 100px;
+    margin-top: 60px;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjclDv0e9IVQdcKL5CgI8DITEgglEavaKqww&s);
+    background-size: cover;
+    background-position: right;
+    padding:12px;
+}
+.video .play{
+    height:100%;
+    width: 160px;
+    border-radius:130px;
+    background-color: black;
+    border:15px solid #d5ff40 ;
+}
+section .hero-text2{
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.hero-text2 h1{
+    font-size:340px;
+    text-transform: uppercase;
+    line-height:300px;
+    font-weight:900;  
+}
+.hero-text2 p{
+    padding-top:70px;
+    font-size:43px;
+    font-weight: 500;
+    width:900px;
+    text-transform: uppercase;
+}
+.image{
+    height: 1200px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 90%;
+    margin-left: 5%;
+    background-image: url(https://cdn.neowin.com/news/images/uploaded/2024/05/1716111118_bloom.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
